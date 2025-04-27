@@ -15,7 +15,7 @@ A lightweight, multi-threaded HTTP web server implemented in Python that can han
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.10+
 - No external dependencies required (uses only standard library modules)
 
 ## Usage
