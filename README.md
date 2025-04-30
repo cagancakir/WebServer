@@ -18,13 +18,7 @@ A lightweight, multi-threaded HTTP web server implemented in Python that can han
 - Proper request and response message exchanges
 - GET command for both text files and image files
 - HEAD command
-- Four types of response statuses
--- 200 OK
--- 400 Bad Request
--- 404 File Not Found
--- 304 Not Modified
--- 415 Unspupported Media Type
--- 401 Forbidden
+- Six types of response statuses (200 OK, 400 Bad Request, 404 File Not Found, 304 Not Modified, 415 Unspupported Media Type, 401 Forbidden)
 - Last-Modified and If-Modified-Since header fields
 - Keep-Alive header field
 
@@ -37,7 +31,7 @@ A lightweight, multi-threaded HTTP web server implemented in Python that can han
 
 ### Starting the Server
 
--Put the website source files into folder - ./www
+* Put the website source files into folder - ./www
 
 ```bash
 python network.py [port] [document_root]
